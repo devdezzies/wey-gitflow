@@ -1,8 +1,8 @@
 import sys 
 
-def fizzBuzz(int: to):
+def fizzBuzz(to):
     for i in range(to):
-        if (i%3==0 && i%5==0):
+        if (i%3==0 and i%5==0):
             print("FizzBuzz")
         elif (i%3==0):
             print("Fizz")
